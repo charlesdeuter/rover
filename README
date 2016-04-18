@@ -1,0 +1,10 @@
+# A quick coding excercise done in ruby
+# The grid represents an x by y length grid of an arbitrary unit size
+# Rovers can then be located on the grid and directed to move or turn
+# The state can then be accessed through attr_accessors
+
+#install dependencies
+bundle install --path .bundle
+
+#run unit tests
+bundle exec rspec
